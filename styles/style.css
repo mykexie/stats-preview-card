@@ -122,22 +122,12 @@ body {
     align-items: center;
     justify-content: center;
     background-image: url('../images/image-header-desktop.jpg');
+    background-color: var(--Soft-violet-accent);
     background-repeat: no-repeat;
     height: 27.8125em;
     width: 33.75em;
     position: relative;
     grid-column: 2 /3;
-}
-
-.image-overlay {
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    max-width: 100%;
-    background-color: var(--Soft-violet-accent);
-    opacity: 0.5;
-    position: absolute;
 }
 
 .attribution {
